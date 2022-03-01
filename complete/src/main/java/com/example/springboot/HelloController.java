@@ -11,4 +11,10 @@ public class HelloController {
 		return "Greetings from Spring Boot!";
 	}
 
+	@GetMapping("/azure")
+	public String azure() {
+		return "Greetings from Azure!";
+	}
+
+
 }
